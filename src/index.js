@@ -5,7 +5,6 @@ import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
 import * as store from './redux/store';
 
-
 import App from 'components/App';
 import Headers from 'components/head/head.js';
 import './index.css';
