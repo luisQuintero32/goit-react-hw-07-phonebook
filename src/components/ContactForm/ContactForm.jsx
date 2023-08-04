@@ -6,9 +6,7 @@ import { addContact } from 'redux/contacts/contacts-operations';
 import style from './ContactForm.module.css';
 
 const ContactForm = () => {
-  
   const dispatch = useDispatch();
-  
   const contacts = useSelector(selectItems);
 
   const handleSubmit = (event) => {

@@ -4,7 +4,6 @@ import { setFilter } from 'redux/contacts/contacts-filter';
 
 
 const Filter = () => {
-
   const dispatch = useDispatch();
   
   const setFilterValue = event => {
@@ -20,7 +19,7 @@ const Filter = () => {
       onChange={setFilterValue}
       />
     </div>
-  )    
+  )     
 }
       
 export default Filter;

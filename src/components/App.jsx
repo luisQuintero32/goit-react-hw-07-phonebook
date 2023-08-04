@@ -1,9 +1,11 @@
+
+// import shortid from 'shortid';
 import style from './App.module.css';
 import { useSelector } from 'react-redux';
 import { selectItems } from "redux/contacts/contacts-selectors";
 import Section from './Section/Section';
 import ContactForm from './ContactForm/ContactForm';
-import ContactList from './ContactList/ContacsList';
+import ContactList from './ContactList/ContactList';
 import Filter from './Filter/Filter';
 import Notification from './Notification/Notification';
 
